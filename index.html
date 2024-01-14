@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+        integrity="sha256-TryXbHoOGuTSpAGc8mP33sWvAKI+fhvU4AZZ0LPaesk=" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="blurred"></div>
+
+    <div id="main">
+
+        <div id="page1">
+
+            <div id="navbar">
+
+                <div id="logo"><img src="canva-blue-black-modern-simple-design-hotel-and-resort-logo---logos-12dHdVU_6wc-removebg-preview.png" alt=""></div>
+
+                <div id="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Booking</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div id="sign-in">
+                    <button id="get-sign" onclick="windowTop()">Sign in</button>
+
+                    
+                    <form action="" class="date-selection">
+                            <h3>Sign in Now !</h3>                        
+                            <input class="input" type="text" name="text" placeholder="Name" autocomplete="off" required>
+                            <input class="input" type="email" name = "email" placeholder="Email" autocomplete="off" required>
+                            <input class="input" type="password" name="password" placeholder="Password" autocomplete="off" required>
+                            <input type="checkbox" name="checkbox" id="check">
+                            <button id="submit">Sign in</button>
+ 
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div id="container">
+                <p>Welcome to our resort</p>
+                <h1>A Luxary Stay!</h1>
+
+                <div id="div">
+                    <div class="line"></div>
+                    <h6>Hotel &Resort</h6>
+                    <div class="line"></div>
+                </div>
+
+                <div id="details">
+                    <div class="box1 box">
+                        <div class="tag">Check in Date</div>
+                        <div class="box-data"><i class="fa-regular fa-calendar-days" onclick="windowTop()"></i> <span
+                                id="check-in">Check</span></div>
+                        <div class="date-selection">
+                            <h3>Select Check in Date</h3>
+                            <input class="date" type="date">
+                            <button class="check-date" >Done</button>
+                        </div>
+
+                    </div>
+                    <div class="box2 box">
+                        <div class="tag">Check out Date</div>
+                        <div class="box-data"><i class="fa-regular fa-calendar-days" onclick="windowTop()"></i> <span
+                                id="check-out">Check</span></div>
+                        <div class="date-selection">
+                            <h3>Select Check out Date</h3>
+                            <input class="date" type="date">
+                            <button class="check-date">Done</button>
+                        </div>
+                    </div>
+                    <div class="box3 box">
+                        <div class="tag">Rooms</div>
+                        <div class="box-data">
+                            
+                             <span class="count+ count-set">+</span>
+                             <span class="count-room count-set">0</span> 
+                             <span class="count- count-set">-</span>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="box4 box">
+                        <div class="tag">Guests</div>
+                        <div class="box-data"> 
+                            
+                            <span class="count+ count-set">+</span>
+                            <span class="count-guest count-set">0</span>
+                            <span class="count- count-set">-</span>
+                        
+                        </div>
+
+                    </div>
+                    <div class="box5 box">
+                        <button id="button"  onclick="windowTop()">Search</button>
+                        <div class="date-selection">
+                            <span id="exit">X</span>
+                            <h3>Sorry No Room Available!</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="page2">
+
+
+            <div class="const-heading">
+                <h2>About Us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit.</p>
+            </div>
+            <div id="about">
+                <div id="about-text" class="about-data">
+                    <h2>Best Hotel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem numquam explicabo excepturi illum
+                        non ipsum molestiae cum perferendis praesentium aut. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Maiores, cum. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button>About-us</button>
+
+                </div>
+
+                <div id="about-img" class="about-data">
+                    <img id="about-us-image"
+                        src="https://img.freepik.com/premium-photo/minsk-belarus-august-2017-columns-guestroom-hall-reception-modern-luxury-hotel_97694-6572.jpg"
+                        alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="page3">
+            <div class="const-heading">
+                <h2>WHY TO CHOOSE US ?</h2>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
